@@ -12,6 +12,7 @@ import {
   MiniMap,
   Background,
   MarkerType,
+  BackgroundVariant,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import { Search, FileText, Users, MessageSquare } from "lucide-react";
@@ -160,7 +161,7 @@ export const FlowCanvas = () => {
           }}
         />
         <Background 
-          variant="dots"
+          variant={BackgroundVariant.Dots}
           gap={40} 
           size={1} 
           color="rgba(212, 31, 39, 0.1)" 
