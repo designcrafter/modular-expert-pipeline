@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,16 +53,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				// Bosch specific colors
+				'bosch-red': 'hsl(var(--bosch-red))',
+				'bosch-blue': 'hsl(var(--bosch-blue))',
+				'bosch-light-blue': 'hsl(var(--bosch-light-blue))',
+				'bosch-gray-light': 'hsl(var(--bosch-gray-light))',
+				'bosch-gray-medium': 'hsl(var(--bosch-gray-medium))',
+				'bosch-gray-dark': 'hsl(var(--bosch-gray-dark))',
+				'bosch-text': 'hsl(var(--bosch-text))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
