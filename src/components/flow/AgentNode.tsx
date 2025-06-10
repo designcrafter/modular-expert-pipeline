@@ -32,7 +32,7 @@ const AgentNode = memo(({ data }: AgentNodeProps) => {
     <>
       <Handle type="target" position={Position.Top} />
       
-      <Card className="w-72 bg-bosch-light-blue/30 border-bosch-blue/30 shadow-lg">
+      <Card className="w-72 bg-white border-bosch-gray-medium shadow-lg">
         <CardHeader className="pb-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">

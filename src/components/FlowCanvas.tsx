@@ -160,7 +160,7 @@ export const FlowCanvas = () => {
           }}
         />
         <Background 
-          variant="dots" 
+          variant="dots"
           gap={40} 
           size={1} 
           color="rgba(212, 31, 39, 0.1)" 
