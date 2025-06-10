@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -79,4 +78,37 @@
 .agent-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* React Flow customizations */
+.react-flow__node {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.react-flow__handle {
+  background-color: hsl(var(--bosch-blue)) !important;
+  border: 2px solid white !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.react-flow__handle:hover {
+  background-color: hsl(var(--bosch-red)) !important;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2px;
+}
+
+.react-flow__controls {
+  background: white;
+  border: 1px solid hsl(var(--bosch-gray-medium));
+  border-radius: 8px;
+}
+
+.react-flow__minimap {
+  border: 1px solid hsl(var(--bosch-gray-medium));
+  border-radius: 8px;
 }
